@@ -1,0 +1,7 @@
+syntax = "proto3";
+package test_message;
+
+// [RINF:DART-SIGNAL]
+message TestMessage {
+    string msg = 1;
+}
